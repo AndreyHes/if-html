@@ -1,6 +1,7 @@
 * {
-
+url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 }
+
 
 h2 {
   text-align: center;
@@ -15,25 +16,35 @@ hr {
   border: none;
 }
 
-.vector-group {
-  display: flex;
-  flex-wrap: wrap;
-  width: 100px;
-  height: 100px;
-  justify-content: center;
-  flex-direction: column;
-  margin-top: 200px;
+.block {
+  max-width: 1440px;
+  padding: 200px 16px 0;
+  margin: 0 auto;
 
 }
-.container {
-  margin-left: 200px;
-  margin-right: 200px;
+
+.vector-group {
+  display: flex;
+  gap: 16px;
+}
+
+.container-group {
+  width: 25%;
+  margin-top: 50px;
+}
+
+.col {
+  text-align: center;
+}
+
+.img {
+  margin: 32px 0;
 }
 
 .text-group {
- text-align: center;
-  float: left;
-  width: 100%;
-  height: 100%;
-  margin-top: 50px;
+  display: block;
+  text-align: center  ;
+  font-size: 24px;
+  font-weight: 400;
+
 }
