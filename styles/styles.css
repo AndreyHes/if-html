@@ -9,6 +9,9 @@
 body {
   font-family: "Roboto", sans-serif;
 }
+ul {
+  list-style-type: none;
+}
 
 .footer {
   height: 625px;
@@ -16,13 +19,9 @@ body {
   padding: 120px 0 120px 104px;
 }
 
-ul {
-  list-style-type: none;
-}
-
 .links-wrapper {
   display: flex;
-  justify-content: left ;
+  justify-content: flex-start ;
 }
 
 .links-list {
