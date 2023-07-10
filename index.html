@@ -1,10 +1,153 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
-
-</body>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="keywords" content="lists, tables, forms" />
+    <title>Lesson-3</title>
+  </head>
+  <body>
+    <img
+      src="http://s1.narvii.com/image/nbecqv45g5phjzcco3jiacjnyj5eo5u2_00.jpg"
+      alt="Gin"
+    />
+    <ol>
+      <li>
+        Знакомства с Web
+        <ul>
+          <li>Краткая история Web и что такое интернет</li>
+          <li>Как устроен браузер и как он получает страницы по сети</li>
+          <li>Что такое Git?</li>
+          <li>Создание первого репозитория</li>
+          <li>О файле .gitignore</li>
+        </ul>
+      </li>
+      <li>
+        HTML-верстка - первые шаги
+        <ul>
+          <li>Настройка рабочей среды</li>
+          <li>Краткая история HTML</li>
+          <li>Какие бывают теги и что такое атрибут</li>
+          <li>Теги для работы с текстом</li>
+          <li>Создание собственной страницы</li>
+        </ul>
+      </li>
+      <li>
+        Погружение в HTML-разметку
+        <ul>
+          <li>Мета-теги</li>
+          <li>Мнемоники</li>
+          <li>Тег для работы с изображениями</li>
+          <li>Теги для работы со списками</li>
+          <li>Теги для работы с таблицами</li>
+          <li>Теги для работы с формами</li>
+          <li>Div-блоки</li>
+        </ul>
+      </li>
+    </ol>
+    <table border="1" width="100%">
+      <thead>
+        <tr>
+          <th>Tag</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tr>
+        <td>&lt;table&gt;</td>
+        <td>Defines a table</td>
+      </tr>
+      <tr>
+        <td>&lt;tr&gt;</td>
+        <td>Defines a row in a table</td>
+      </tr>
+      <tr>
+        <td>&lt;th&gt;</td>
+        <td rowspan="2">Defines a "header cell" / "cell" in a table</td>
+      </tr>
+      <tr>
+        <td>&lt;td&gt;</td>
+      </tr>
+      <tr>
+        <td colspan="2">Rarely used</td>
+      </tr>
+      <tr>
+        <td>&lt;caption&gt;</td>
+        <td>Defines a table caption</td>
+      </tr>
+      <tr>
+        <td>&lt;thead&gt;</td>
+        <td>Groups the header content in a table</td>
+      </tr>
+      <tr>
+        <td>&lt;tbody&gt;</td>
+        <td>Groups the body content in a table</td>
+      </tr>
+      <tr>
+        <td>&lt;tfoot&gt;</td>
+        <td>Groups the foot content in a table</td>
+      </tr>
+    </table>
+    <br />
+    <form action="/" method="get">
+      <fieldset>
+        <legend>My first form</legend>
+        <div>
+          <label for="name">Name</label><br />
+          <input id="name" type="text" name="name" placeholder="Name" /><br />
+          <label for="email">Email</label><br />
+          <input id="email" name="email" type="email" /><br />
+          <label for="password">Password</label><br />
+          <input id="password" name="password" type="password" /><br />
+        </div>
+        <div>
+          <label for="level">Your programming Level</label><br />
+          <input
+            type="range"
+            name="level"
+            id="level"
+            min="0"
+            max="10"
+            value="5"
+          /><br />
+        </div>
+        <div>
+          <p>What does HTML stand for</p>
+          <input type="checkbox" id="html-1" name="text-1" />
+          <label for="html-1">Hyperlinks and Text Markup Language</label><br />
+          <input type="checkbox" id="html-2" name="text-2" />
+          <label for="html-2">Home Tool Markup Language</label><br />
+          <input type="checkbox" id="html-3" name="text-3" />
+          <label for="html-3">Hyper Text Markup Language</label><br />
+        </div>
+        <div>
+          <p>What does HTTP stand for</p>
+          <input name="http1" type="radio" id="http-1" value="1" />
+          <label for="http-1">Hyper Text Translate Protocol</label><br />
+          <input name="http-2" type="radio" id="http-2" value="2" />
+          <label for="http-2">Hyper Text Transmission Protocol</label><br />
+          <input name="http-3" type="radio" id="http-3" value="3" />
+          <label for="http-3">Hyper Text Transfer Protocol</label><br />
+        </div>
+        <div>
+          <label for="comment">Comment</label><br />
+          <textarea
+            name="comment"
+            id="comment"
+            placeholder="Comment"
+          ></textarea>
+        </div>
+        <div>
+          <label for="html">What does HTML stand for</label><br />
+          <select name="html" id="html">
+            <option disabled selected>Your answer</option>
+            <option>Hyperlinks and Text Markup Language</option>
+            <option>Home Tool Markup Language</option>
+            <option>Hyper Text Markup Language</option>
+          </select>
+        </div>
+        <div>
+          <button>Send</button>
+        </div>
+      </fieldset>
+    </form>
+  </body>
 </html>
