@@ -1,0 +1,61 @@
+* {
+url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 120px;
+  margin-bottom: 20px;
+}
+
+hr {
+  background-color: #f5bd41;
+  width: 100px;
+  height: 4px;
+  border: none;
+}
+
+.block {
+  max-width: 1440px;
+  padding: 200px 16px 0;
+  margin: 0 auto;
+
+}
+
+.vector-group {
+  display: flex;
+  gap: 16px;
+}
+
+.container-group {
+  width: 25%;
+  margin-top: 50px;
+}
+
+.col {
+  text-align: center;
+}
+
+.img {
+  margin: 32px 0;
+}
+
+.text-group {
+  display: block;
+  text-align: center  ;
+  font-size: 24px;
+  font-weight: 400;
+  font-family: 'Roboto', sans-serif;
+  color: #383838;
+}
+
+.text-offer {
+  font-weight: 500;
+  font-size: 40px;
+  color: #383838;
+  font-family: 'Roboto', sans-serif;
+}
