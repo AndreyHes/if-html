@@ -17,6 +17,7 @@ hr {
   width: 100px;
   height: 4px;
   border: none;
+  margin: 0 auto;
 }
 
 .block {
