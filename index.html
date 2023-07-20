@@ -10,13 +10,42 @@
       <div class="container">
         <header class="header">
           <div class="header-logo"></div>
-          <div class="block-1">
-            <div class="header-links">
-              <a href="#"><span class="header-text-1">Stays<span></a>
-              <a href="#"><span class="header-text-2">Attractions</span></a>
+          <div class="header-actions-wrapper">
+            <div class="header-actions">
+              <a class="header-link" href="#">Stays</a>
+              <a class="header-link" href="#">Attractions</a>
+            </div>
+            <div class="header-actions">
+              <button class="header-theme"></button>
+              <button class="header-account"></button>
             </div>
           </div>
         </header>
+        <h1 class="main-heading">
+          Discover stays <br />
+          to live, work or just relax
+        </h1>
+        <div>
+          <form class="form">
+            <div class="form-elements country">
+              <label for="country">Your destination or hotel name</label>
+              <input id="country" type="text" placeholder="New York" />
+            </div>
+            <div class="form-elements date">
+              <label for="date">Check-in — Check-out</label>
+              <input
+                id="date"
+                type="text"
+                placeholder="Tue 15 Sept — Sat 19 Sept"
+              />
+            </div>
+            <div class="form-elements options">
+              <input type="text" placeholder="2 Adults — 0 Children — 1 Room" />
+            </div>
+            <button class="form-button">Search</button>
+          </form>
+          <div class="apps"></div>
+        </div>
       </div>
     </div>
   </body>
