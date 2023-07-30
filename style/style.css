@@ -28,6 +28,16 @@ hr {
   margin: 0 auto;
 }
 
+.svg-sprite {
+  position: absolute;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+
+
+
+
 .block {
   max-width: 1440px;
   padding: 0 16px;
@@ -52,6 +62,8 @@ hr {
 
 .img {
   margin: 32px 0;
+  width: 100px;
+  height: 100px;
 }
 
 .text-group {
