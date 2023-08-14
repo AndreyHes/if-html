@@ -2,7 +2,7 @@
 
 * {
   padding: 0;
-  margin: 0 auto;
+  margin: 0 ;
   box-sizing: border-box;
 }
 
@@ -38,7 +38,7 @@ input {
   background-position: center 15%;
 }
 
-.header-logo {
+.header__logo {
   background-image: url("./images/logo_vector.png");
   background-size: cover;
   background-repeat: no-repeat;
@@ -53,14 +53,14 @@ input {
   margin-top: 50px;
 }
 
-.header-link {
+.header__link {
   color: #ffffff;
   font-weight: 400;
   font-size: 24px;
   line-height: 28px;
 }
 
-.header-theme {
+.header__theme {
   background-image: url("./images/Night.png");
   background-size: cover;
   background-repeat: no-repeat;
@@ -70,7 +70,7 @@ input {
   height: 30px;
 }
 
-.header-account {
+.header__account {
   background-image: url("./images/AccountCircle.png");
   background-size: cover;
   background-repeat: no-repeat;
@@ -80,12 +80,12 @@ input {
   height: 40px;
 }
 
-.header-actions-wrapper {
+.header__actions__wrapper {
   display: flex;
   gap: 48px;
 }
 
-.header-actions {
+.header__actions {
   display: flex;
   gap: 24px;
   align-items: center;
@@ -110,7 +110,7 @@ input {
   margin-bottom: 130px;
 }
 
-.form-elements {
+.form__elements {
   position: relative;
 }
 
@@ -126,12 +126,12 @@ input {
   width: 27%;
 }
 
-.form-elements input::placeholder {
+.form__elements input::placeholder {
   font-size: 18px;
   color: #000000;
 }
 
-.form-elements input {
+.form__elements input {
   width: 100%;
   height: 100%;
   border-radius: 8px;
@@ -140,14 +140,14 @@ input {
   font-size: 18px;
 }
 
-.form-elements label {
+.form__elements label {
   position: absolute;
   top: -35px;
   left: 15px;
   color: #ffffff;
 }
 
-.form-elements input:focus {
+.form__elements input:focus {
   border: 3px solid #f5bd41;
 }
 
