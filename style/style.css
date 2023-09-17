@@ -209,4 +209,7 @@ hr {
     font-size: 12px;
     justify-content: center;
   }
+  .footer {
+    padding: 120px;
+  }
 }
