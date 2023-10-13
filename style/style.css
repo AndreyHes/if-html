@@ -33,10 +33,10 @@ hr {
 }
 
 .block {
-  max-width: 1440px;
+  max-width: 1264px;
+  width: 100%;
   padding: 0 16px;
   margin: 0 auto;
-
 }
 
 .footer__logo {
@@ -79,7 +79,6 @@ hr {
 }
 
 .footer {
-  height: 625px;
   background-color: #10367cff;
   padding: 120px 0 120px 104px;
 }
