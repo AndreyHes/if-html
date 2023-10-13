@@ -6,6 +6,51 @@
     <link rel="stylesheet" href="style/style.css" />
   </head>
   <body>
+    <div class="top-section">
+      <div class="container">
+        <header class="header">
+          <div class="header"></div>
+          <div class="header__actions__wrapper">
+            <div class="header__actions">
+              <a class="header__link" href="#">Stays</a>
+              <a class="header__link" href="#">Attractions</a>
+            </div>
+            <div class="header__actions">
+              <button class="header__theme"></button>
+              <button class="header__account"></button>
+            </div>
+          </div>
+        </header>
+        <h1 class="main-heading">
+          Discover stays <br />
+          to live, work or just relax
+        </h1>
+        <div>
+          <form class="form">
+            <div class="form__elements country">
+              <label for="country">Your destination or hotel name</label>
+              <input id="country" type="text" placeholder="New York" />
+            </div>
+            <div class="form__elements date">
+              <label for="date">Check-in — Check-out</label>
+              <input
+                id="date"
+                type="text"
+                placeholder="Tue 15 Sept — Sat 19 Sept"
+              />
+            </div>
+            <div class="form__elements options">
+              <input type="text" placeholder="2 Adults — 0 Children — 1 Room" />
+            </div>
+            <button class="form-button">Search</button>
+          </form>
+          <div class="apps"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+    <link rel="stylesheet" href="style/style.css" />
+  <body>
     <svg class="svg-sprite" xmlns="http://www.w3.org/2000/svg">
       <symbol id="support" viewBox="0 0 100 100">
         <path
@@ -38,7 +83,6 @@
         </svg>
       </symbol>
     </svg>
-
     <div class="block">
       <h2 class="text-offer">What do we offer</h2>
       <hr />
